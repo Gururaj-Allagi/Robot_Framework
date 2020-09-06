@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20181228 19:13:16.114">
+<suite id="s1" name="Guru" source="C:\Eclipse Work Space\PythonProjectPracticeRobot\guru.robot">
+<test id="s1-t1" name="Example">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://robotframework.org</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20181228 19:13:16.290" level="INFO">Opening browser 'Chrome' to base url 'http://robotframework.org'.</msg>
+<status status="PASS" starttime="20181228 19:13:16.290" endtime="20181228 19:13:26.308"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20181228 19:13:36.311" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181228 19:13:26.309" endtime="20181228 19:13:36.311"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20181228 19:13:36.311" endtime="20181228 19:13:38.543"></status>
+</kw>
+<status status="PASS" starttime="20181228 19:13:16.289" endtime="20181228 19:13:38.544" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20181228 19:13:16.117" endtime="20181228 19:13:38.549"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Guru">Guru</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20181228 19:13:16.285" level="WARN">Error in file 'C:\Eclipse Work Space\PythonProjectPracticeRobot\guru.robot': Importing library with extra spaces in name like 'C:Eclipse Work SpacePythonProjectPracticeRobotchromedriver.exe' is deprecated. Remove spaces and use 'C:EclipseWorkSpacePythonProjectPracticeRobotchromedriver.exe' instead.</msg>
+<msg timestamp="20181228 19:13:16.288" level="ERROR">Error in file 'C:\Eclipse Work Space\PythonProjectPracticeRobot\guru.robot': Importing test library 'C:EclipseWorkSpacePythonProjectPracticeRobotchromedriver.exe' failed: ModuleNotFoundError: No module named 'C:EclipseWorkSpacePythonProjectPracticeRobotchromedriver'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Eclipse Work Space\PythonProjectPracticeRobot
+  c:\python37-32\python37.zip
+  c:\python37-32\DLLs
+  c:\python37-32\lib
+  c:\python37-32
+  c:\python37-32\lib\site-packages</msg>
+</errors>
+</robot>
